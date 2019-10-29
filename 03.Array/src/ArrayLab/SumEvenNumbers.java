@@ -8,7 +8,9 @@ public class SumEvenNumbers {
         Scanner scanner = new Scanner(System.in);
         int sum = 0;
 
-        int[] numbers = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+        int[] numbers = Arrays.stream(scanner.nextLine().split(" ")).
+                mapToInt(Integer::parseInt).toArray();
+
         for(Integer num : numbers){
             if(num % 2 == 0){
                 sum += num;
