@@ -12,7 +12,6 @@ public class NumbersReverseOrder {
         for (int i = 0; i < n; i++) {
             numbers[i] = Integer.parseInt(scanner.nextLine());
         }
-
         for (int num = n - 1; num >= 0; num--) {
             System.out.print(numbers[num] + " ");
         }
