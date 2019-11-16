@@ -7,7 +7,6 @@ public class ZigZagArrays {
         Scanner scanner = new Scanner(System.in);
 
         int lines = Integer.parseInt(scanner.nextLine());
-
         String[] firstArray = new String[lines];
         boolean arrayOne = true;
         String[] secondArray = new String[lines];
